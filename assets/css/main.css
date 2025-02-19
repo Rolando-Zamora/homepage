@@ -2445,7 +2445,7 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #d1eddc; <!-- button border static -->
+		border: solid 3px #EFE7DD; <!-- button border static -->
 		color: #787878 !important;
 		cursor: pointer;
 		display: inline-block;
@@ -2473,7 +2473,7 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #EFE7DD; <!-- button border static -->
+			border-color: #EFE7DD; 
 			color: #A5ACB7 !important; <!-- button text static -->
 		}
 
