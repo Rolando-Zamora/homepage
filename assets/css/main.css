@@ -2072,8 +2072,8 @@ input, select, textarea {
 				transition: opacity 0.2s ease-in-out;
 				border-radius: 0.35em;
 				border: solid 3px rgba(255, 255, 255, 0.5);
-				color: #fff;
-				content: 'View';
+				color: #C3A684;
+				content: 'Expand'; <!-- text displayed when hover over image -->
 				display: inline-block;
 				font-size: 0.8em;
 				font-weight: 400;
@@ -2464,7 +2464,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
+			border-color: #C3A684;
 			color: #49bf9d !important; <!-- button border hover over -->
 		}
 
