@@ -2072,7 +2072,7 @@ input, select, textarea {
 				transition: opacity 0.2s ease-in-out;
 				border-radius: 0.35em;
 				border: solid 3px rgba(255, 255, 255, 0.5);
-				color: #C3A684; <!-- text color displayed when hover over image -->
+				color: #6F7A8C; <!-- text color displayed when hover over image -->
 				content: 'Expand'; <!-- text displayed when hover over image -->
 				display: inline-block;
 				font-size: 0.8em;
@@ -2080,7 +2080,7 @@ input, select, textarea {
 				left: 50%;
 				line-height: 2.25em;
 				margin: -1.25em 0 0 -3em;
-				opacity: 0;
+				opacity: 0.5;
 				padding: 0 1.5em;
 				position: absolute;
 				text-align: center;
@@ -2464,7 +2464,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #C3A684; <!-- button border hover -->
+			border-color: #6F7A8C; <!-- button border hover -->
 			color: #6F7A8C !important; <!-- button text hover -->
 		}
 
