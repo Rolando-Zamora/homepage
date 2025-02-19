@@ -2464,7 +2464,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #6F7A8C; <!-- button border hover -->
+			border-color: #C3A684; <!-- button border hover -->
 			color: #6F7A8C !important; <!-- button text hover -->
 		}
 
