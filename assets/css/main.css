@@ -111,13 +111,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #C3A684;
+		color: #;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #C3A684 !important;
+			color: # !important;
 			text-decoration: none;
 		}
 
@@ -1841,7 +1841,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #C3A684;
+			border-color: #;
 		}
 
 	select {
@@ -1946,7 +1946,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #C3A684;
+			border-color: #;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2465,7 +2465,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		.button:hover {
 			border-color: #C3A684; <!-- button border hover -->
-			color: #6F7A8C !important; <!-- button text hover -->
+			color: #6F7A8C !important; <!-- button text hover? -->
 		}
 
 		input[type="submit"]:active,
@@ -2473,7 +2473,7 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #EFE7DD; 
+			border-color: #6F7A8C; <!-- *** -->
 			color: #A5ACB7 !important; <!-- button text static -->
 		}
 
