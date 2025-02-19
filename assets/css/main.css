@@ -2464,8 +2464,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #C3A684;
-			color: #49bf9d !important; <!-- button border hover over -->
+			border-color: #C3A684; <!-- button border hover over -->
+			color: #49bf9d !important; 
 		}
 
 		input[type="submit"]:active,
@@ -2473,7 +2473,7 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
+			border-color: #E7DCCF; <!-- button border static -->
 			color: #49bf9d !important;
 		}
 
