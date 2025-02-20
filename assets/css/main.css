@@ -2055,7 +2055,7 @@ input, select, textarea {
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.5;  <!-- opacity of static thumbnail images -->
+			opacity: 0.5;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -2072,8 +2072,8 @@ input, select, textarea {
 				transition: opacity 0.2s ease-in-out;
 				border-radius: 0.35em;
 				border: solid 3px rgba(255, 255, 255, 0.5);
-				color: #fff; <!-- text color displayed when hover over image -->
-				content: 'Expand'; <!-- text displayed when hover over image -->
+				color: #fff;
+				content: 'Expand';
 				display: inline-block;
 				font-size: 0.8em;
 				font-weight: 400;
