@@ -2071,7 +2071,7 @@ input, select, textarea {
 				-ms-transition: opacity 0.2s ease-in-out;
 				transition: opacity 0.2s ease-in-out;
 				border-radius: 0.35em;
-				border: solid 3px rgba(255, 255, 255, 0.5);
+				border: solid 3px rgba(239, 231, 221, 0.5);
 				color: #C3A684;
 				content: 'Expand';
 				display: inline-block;
@@ -2464,8 +2464,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #C3A684; <!-- button border hover -->
-			color: #6F7A8C !important; <!-- button text hover? -->
+			border-color: #C3A684; 
+			color: #6F7A8C !important; 
 		}
 
 		input[type="submit"]:active,
