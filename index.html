@@ -11,6 +11,23 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
+	<script>
+	document.addEventListener("contextmenu", function(event) {
+   		event.preventDefault();
+	});
+
+	document.addEventListener("keydown", function(event) {
+    		if (event.ctrlKey && (event.key === "u" || event.key === "U")) {
+       			event.preventDefault();
+       			alert("View Source is disabled!");
+    		}
+    		if (event.key === "F12" || (event.ctrlKey && event.shiftKey && event.key === "I")) {
+      			event.preventDefault();
+       			alert("Inspect Element is disabled!");
+   		}
+	});
+	</script>
+
 	<body class="is-preload">
 
 		<!-- Header -->
